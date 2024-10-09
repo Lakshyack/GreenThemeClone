@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+  <!-- Signal bars with distinct heights -->
+  <rect x="160" y="180" width="32" height="80" style="stroke:#32CD32; fill:none; stroke-width:10" />   <!-- First Bar -->
+  <rect x="240" y="160" width="32" height="100" style="stroke:#32CD32; fill:none;stroke-width:10" />  <!-- Second Bar -->
+  <rect x="320" y="140" width="32" height="120" style="stroke:#32CD32; fill:none;stroke-width:10" />  <!-- Third Bar -->
+  <rect x="400" y="100" width="32" height="160" style="stroke:#32CD32; fill:none;stroke-width:10" />  <!-- Fourth Bar -->
+  <rect x="480" y="60" width="32" height="200" style="stroke:#32CD32; fill:none;stroke-width:10" />   <!-- Fifth Bar -->
+
+  <!-- Curved arrow adjusted to not touch any bars -->
+  <path d="M 170 160 Q 250 140, 270 130 Q 370 98, 460 20" stroke="#32CD32" fill="none" stroke-width="8" marker-end="url(#arrowhead)" />
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#32CD32" />
+    </marker>
+  </defs>
+</svg>
+<!-- <path d="M 180 180 Q 240 140, 320 120 Q 400 100, 480 60" -->

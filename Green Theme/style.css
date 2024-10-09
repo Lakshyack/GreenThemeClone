@@ -1,0 +1,394 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+    color: white;
+    height: 55px;
+    font-size: 12px;
+}
+
+.headerLogo {
+    height: 55px;
+    width: 135px;
+    margin-left: 17px;
+}
+
+.headerBtn {
+    margin-top: 10px;
+    padding: 5px 18px;
+    color: aliceblue;
+    background-color: #82b541;
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.mainContainer {
+    background-color: #121313;
+    /* height: 100px; */
+    color: white;
+}
+
+.dropdownMenu {
+    background-color: #121313;
+    box-shadow: 0px 0px 18px -20px white;
+    z-index: 100;
+    width: 220px;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+.dropdownItem {
+    color: white;
+    padding: 0px 40px;
+
+    text-decoration: none;
+}
+
+.dropdownItem:hover {
+    color: #11e54e;
+    /* Optional: Background change on hover */
+}
+
+.dropdownItem:active,
+.dropdownItem:focus {
+    color: #11e54e;
+}
+
+.dropdown {
+    margin: 9px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    /* Adjusts dropdown position */
+}
+
+.colorWhite {
+    color: white;
+    text-decoration: none;
+}
+
+.colorWhite:hover {
+    color: #11e54e;
+}
+
+.colorWhite:active,
+.colorWhite:focus {
+    color: #11e54e;
+}
+
+.NavLogo {
+    height: 35px;
+    width: 120px;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-left: 4px;
+}
+
+.NavBtn {
+    all: unset;
+    color: black;
+    background-color: #11e54e;
+    border-radius: 50px;
+    padding: 13px 30px;
+    margin-right: 3px;
+}
+
+.navbar-nav {
+    gap: 10px;
+}
+
+.LdropdownItem {
+    padding: 8px 0px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.mainHeading {
+    font-size: 4.75rem;
+    font-weight: 700;
+    margin: 70px 20px 20px 25px;
+}
+
+.clientImg {
+    height: 65px;
+    width: 65px;
+    border: 2px solid #11e54e;
+    border-radius: 50%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.GreenBg {
+    background-image: url(img/backgroungGreen.jpeg);
+    background-size: cover;
+    /* Covers the entire area */
+    background-position: center;
+    height: 350px;
+    width: 96.5vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.widgets {
+    margin: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.widgetsElement {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    color: white;
+    padding: 10px 30px;
+    /* Padding for better appearance */
+    border-radius: 25px;
+    /* Optional: rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+.portfolioSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 30px;
+}
+
+.portfolioBtn {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 40px;
+    border-radius: 30px;
+    margin: 80px 14px;
+}
+
+.playBtn {
+    border: 2px solid rgb(5, 5, 5);
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 50px 10px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.socialMediaLogo {
+    cursor: pointer;
+    display: flex;
+    gap: 22px;
+    margin-right: 10px;
+}
+
+.socialMediaLogo div {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11e54e;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.socialMediaLogo div img {
+    height: 17px;
+    width: 17px;
+
+}
+
+@keyframes scaleUpAndDown {
+    0% {
+        transform: scale(1);
+
+    }
+
+    50% {
+        transform: scale(1.2);
+
+    }
+
+    100% {
+        transform: scale(1);
+
+    }
+}
+
+.socialMediaLogo div:hover {
+    background-color: #9eff95;
+    animation: scaleUpAndDown 0.5s ease-in-out forwards;
+    /* Runs the animation for 1 second */
+}
+
+.socialMediaLogo h6 {
+    color: #e8ffe6;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.slideContainer {
+    margin-top: 70px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+
+.thirdFrame {
+    margin-top: 75px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.About-us {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 60px;
+    gap: 10px;
+}
+
+.About-us img {
+    height: 18px;
+    width: 18px;
+    /* border: 2px solid #11e54e; */
+    border-radius: 50%;
+}
+
+.About-us h6 {
+    padding-bottom: 5px;
+    color: #11e54e;
+    font-weight: 600;
+}
+
+.leftSide-thiredSec {
+    display: flex;
+    flex-direction: column;
+    width: 43vw;
+    /* height: 70vh; */
+    gap: 10px;
+}
+
+.leftSide-thiredSec h1 {
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.leftSide-thiredSec p {
+    margin-top: 2px;
+    color: #cdfcc9;
+    margin-bottom: 20px;
+    /* font-size: 17px; */
+}
+
+.leftSide-thiredSec a {
+    background-color: #11e54e;
+    text-decoration: none;
+    color: black;
+    padding: 12px 32px;
+    border-radius: 27px;
+    width: 150px;
+}
+
+.trafficimage img {
+    position: relative;
+    width: 580px;
+    height: 380px;
+    border-radius: 20px;
+}
+
+.trafficimage {
+    position: relative;
+}
+
+.monthlyTraffic {
+    background-image: url(img/greenBGTeam10.jpeg);
+    background-size: cover;
+    /* Covers the entire area */
+    background-position: center;
+
+    width: 240px;
+    height: 230px;
+    position: absolute;
+    border-radius: 20px;
+    bottom: -70px;
+    left: -35px;
+    box-shadow: 0px 0px 1.5px 0px white;
+    background-repeat: no-repeat;
+
+}
+
+.monthlyTraffic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.642);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    z-index: 1;
+    
+}
+.trafficGrowthIcon{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.trafficGrowthIcon{
+    margin: 20px 60px;
+}
+.trafficGrowthIcon img {
+    z-index: 3;
+    width: 60px;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+.trafficGrowthIcon h6,
+h1{
+ z-index: 2;
+    
+}
+.k70 img{
+    width: 25px;
+    height: 37px;
+}
+
+.k70{
+    display: flex;
+    color: #11e54e;
+    gap: 10px;
+    align-items: center;
+    z-index: 2;
+}
+
+.temp{
+    color: #3c3e3c;
+}
